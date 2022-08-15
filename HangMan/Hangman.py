@@ -3,7 +3,7 @@ from words import words
 import string
 
 
-def getWord(words, mode):
+def get_word(words, mode):
     word = random.choice(words)
     l = 1 + mode * 2
     while '-' in word or ' ' in word or len(word) < l:
@@ -36,7 +36,7 @@ Your choice: "))
         mode = 4
         lives = 2
 
-    word = getWord(words, mode).upper()
+    word = get_word(words, mode).upper()
     word_set = set(word)
     print(word)
     guess = ''
