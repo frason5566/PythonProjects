@@ -38,10 +38,10 @@ Your choice: "))
 
     word = get_word(words, mode).upper()
     word_set = set(word)
-    print(word)
+    # print(word)
     guess = ''
     letters = set(string.ascii_uppercase)
-    print(letters)
+    # print(letters)
     attempt = set()
     while lives > 0 and len(word_set) > 0:
         print(f"You have {lives} lives, and you tried these letters:", ' '.join(attempt))

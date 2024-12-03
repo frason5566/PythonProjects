@@ -1,0 +1,18 @@
+
+SCREEN_SIZE = (800, 600)
+
+WHITE = (255,255,255)
+BLACK = (0,0,0)
+RED = (255,0,0)
+GREEN = (0,255,0)
+BLUE = (0,0,255)
+CYAN = (0,255,255)
+MAGENTA = (255,0,255)
+YELLOW = (255,255,0)
+
+LIGHTBLUE = (0, 128, 234)
+DARKBLUE = (30, 70, 130)
+ORANGE = (255, 100, 0)
+
+score = 0
+lives = 3
